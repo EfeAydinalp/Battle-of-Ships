@@ -11,7 +11,7 @@ This project is a command-line implementation of the classic Battleship game for
 To run the program, use the following command in your terminal:
 
 ```bash
-python3 Assignment4.py "Player1.txt" "Player2.txt" "Player1.in" "Player2.in"
+python3 Battle-of-Ships.py "Player1.txt" "Player2.txt" "Player1.in" "Player2.in"
 ```
 ##Testing
 You can test the program by modifying the move commands in the .in files or the ship positions in the .txt files. The game will behave differently depending on the inputs.
@@ -53,7 +53,7 @@ The goal of the game is to sink all of your opponent's ships before they sink yo
 2. Define your move sequence in `Player1.in` and `Player2.in`. Each move should be formatted as `Row,Column`, e.g., `5,E`.
 3. Run the game by executing the command:
    ```bash
-   python3 Assignment4.py "Player1.txt" "Player2.txt" "Player1.in" "Player2.in"
+   python3 Battle-of-Ships.py "Player1.txt" "Player2.txt" "Player1.in" "Player2.in"
    ```
 4.The game will display the board after each move, showing where ships have been hit or missed.
 
