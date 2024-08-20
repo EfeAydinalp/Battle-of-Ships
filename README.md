@@ -16,11 +16,11 @@ python3 Battle-of-Ships.py "Player1.txt" "Player2.txt" "Player1.in" "Player2.in"
 ##Testing
 You can test the program by modifying the move commands in the .in files or the ship positions in the .txt files. The game will behave differently depending on the inputs.
 
-##Known Issues
+## Known Issues
 - The program may not handle errors in input files correctly, such as misspelled filenames or incorrect move formats
 - Some parts of the code, especially related to error detection, have not been thoroughly tested.
 
-##Future Improvements
+## Future Improvements
 - Improve error handling for incorrect inputs.
 - Refactor code to eliminate unnecessary complexity, such as the redundant letters list in the pull_OptionalShips() function.
 - Add more robust testing to ensure all edge cases are handled.
@@ -55,12 +55,12 @@ The goal of the game is to sink all of your opponent's ships before they sink yo
    ```bash
    python3 Battle-of-Ships.py "Player1.txt" "Player2.txt" "Player1.in" "Player2.in"
    ```
-4.The game will display the board after each move, showing where ships have been hit or missed.
+4.The game will display the board after each move, showing where ships have been hit or missed. Also you can see whole game log in console section and "Battleship.out" .
 
-##Winning the Game
+## Winning the Game
 The game continues until one player has all their ships sunk. The game will automatically detect when a player has lost and declare the winner.
 
-##Error Handling
+## Error Handling
 - The game expects the input files to be correctly formatted. Any issues such as incorrect coordinates or missing files will result in an error message.
 - It is recommended to test the game with different configurations to ensure that all possible scenarios are covered.
 
