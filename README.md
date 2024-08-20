@@ -12,3 +12,7 @@ To run the program, use the following command in your terminal:
 
 ```bash
 python3 Assignment4.py "Player1.txt" "Player2.txt" "Player1.in" "Player2.in"
+
+##Testing
+You can test the program by modifying the move commands in the .in files or the ship positions in the .txt files. The game will behave differently depending on the inputs.
+
