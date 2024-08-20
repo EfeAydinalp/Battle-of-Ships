@@ -25,7 +25,7 @@ You can test the program by modifying the move commands in the .in files or the 
 - Refactor code to eliminate unnecessary complexity, such as the redundant letters list in the pull_OptionalShips() function.
 - Add more robust testing to ensure all edge cases are handled.
 
-### INSTRUCTIONS.md
+### INSTRUCTIONS
 
 
 # Battle of Ships - Instructions
